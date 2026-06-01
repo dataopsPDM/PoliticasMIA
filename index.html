@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro de Cumplimiento - Asistente de Personas MÍA</title>
+    <meta name="description" content="Portal oficial de cumplimiento legal, política de privacidad y términos de servicio de MÍA, el asistente virtual de Personas de Prodeman.">
+    <!-- Meta tags adicionales para Meta/Facebook crawler -->
+    <meta property="og:title" content="Cumplimiento Legal - Asistente de Personas MÍA">
+    <meta property="og:description" content="Consulta los términos de uso y políticas de privacidad para el uso de MÍA en WhatsApp.">
+    <meta property="og:type" content="website">
+    
+    <!-- Vinculación del CSS centralizado -->
+    <link rel="stylesheet" href="src/styles.css">
+    <!-- Icono del sitio -->
+    <link rel="icon" type="image/png" href="src/assets/MIA%20Icon.png">
+</head>
+<body>
+
+    <header class="site-header" id="header-portal">
+        <div class="branding">
+            <img src="src/isologo-white-transparent.svg" alt="Prodeman" class="brand-logo" id="logo-prodeman">
+            <div class="brand-divider"></div>
+            <div class="app-icon-wrapper">
+                <div class="app-icon-ring"></div>
+                <img src="src/assets/MIA%20Icon.png" alt="MÍA Icono" class="app-icon" id="logo-mia">
+            </div>
+        </div>
+        <h1 class="site-title" id="title-main">Asistente de Personas MÍA</h1>
+        <p class="site-subtitle" id="subtitle-main">Portal Oficial de Transparencia y Términos Legales</p>
+    </header>
+
+    <main class="container" id="main-content">
+        <section class="glass-card" style="margin-bottom: 2.5rem; text-align: center;" id="intro-section">
+            <h2 style="margin-top: 0; justify-content: center; font-size: 1.5rem;" id="intro-title">¿Qué es el Asistente MÍA?</h2>
+            <p style="text-align: center; margin-bottom: 0;" id="intro-text">
+                <strong>MÍA</strong> es el asistente virtual inteligente de <strong>Prodeman S.A.</strong> diseñado para automatizar y agilizar las consultas del área de <strong>Personas (Recursos Humanos)</strong> a través de WhatsApp. Ofrece respuestas instantáneas sobre información institucional, gestiones internas y derivación con representantes humanos para resolver inquietudes del personal y público general.
+            </p>
+        </section>
+
+        <nav class="portal-grid" aria-label="Documentos legales" id="legal-navigation">
+            <a href="privacy/" class="portal-card" id="card-privacy">
+                <div class="portal-card-icon" id="icon-privacy">🔒</div>
+                <h2>Política de Privacidad</h2>
+                <p>Conoce qué datos recopilamos al chatear con MÍA, cómo los protegemos y cómo ejercemos tus derechos de acceso y supresión.</p>
+                <span class="btn btn-primary" style="width: 100%;" id="btn-read-privacy">Leer Política</span>
+            </a>
+
+            <a href="terms/" class="portal-card" id="card-terms">
+                <div class="portal-card-icon" id="icon-terms">📜</div>
+                <h2>Términos de Servicio</h2>
+                <p>Lee las reglas, condiciones y limitaciones de uso de nuestro chatbot informativo para garantizar una interacción segura y responsable.</p>
+                <span class="btn btn-primary" style="width: 100%;" id="btn-read-terms">Leer Términos</span>
+            </a>
+        </nav>
+
+        <div class="info-box" style="margin-top: 3rem;" id="voluntary-notice">
+            <p>
+                <strong>Aviso de Voluntariedad:</strong> El uso del chatbot Asistente de Personas MÍA es completamente voluntario. Al interactuar con el bot en WhatsApp, aceptas los términos detallados en los documentos correspondientes. No comercializamos tus datos ni los utilizamos para fines publicitarios.
+            </p>
+        </div>
+    </main>
+
+    <footer class="site-footer" id="footer-portal">
+        <p>&copy; 2026 Prodeman S.A. Todos los derechos reservados.</p>
+        <p style="margin-top: 0.5rem; font-size: 0.8rem;">
+            Desarrollado para el cumplimiento con las políticas de <a href="https://developers.facebook.com/docs/whatsapp/overview" target="_blank" rel="noopener">WhatsApp Business Platform (Meta)</a>.
+        </p>
+    </footer>
+
+</body>
+</html>
